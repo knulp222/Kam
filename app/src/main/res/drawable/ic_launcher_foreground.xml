@@ -1,0 +1,30 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer calm glow -->
+    <path
+        android:fillColor="#15D4AF37"
+        android:pathData="M54,22 C71.67,22 86,36.33 86,54 C86,71.67 71.67,86 54,86 C36.33,86 22,71.67 22,54 C22,36.33 36.33,22 54,22 Z" />
+
+    <!-- Royal Crescent Moon -->
+    <path
+        android:fillColor="#E6C687"
+        android:pathData="M58,28 C41.43,28 28,41.43 28,58 C28,74.57 41.43,88 58,88 C68.22,88 77.18,82.89 82.5,75 C64,75.5 50,60 52,41 C53,35.5 55.5,31 58,28 Z" />
+
+    <!-- Medieval Crown / Star accent -->
+    <path
+        android:fillColor="#FFF4D0"
+        android:pathData="M64,30 L67,36 L74,34 L70,41 L76,46 L69,47 L68,54 L63,48 L56,51 L59,44 L54,39 L61,38 Z" />
+
+    <!-- Little stars -->
+    <path
+        android:fillColor="#FFE8A3"
+        android:pathData="M40,36 L41.5,39.5 L45,41 L41.5,42.5 L40,46 L38.5,42.5 L35,41 L38.5,39.5 Z" />
+    <path
+        android:fillColor="#FFE8A3"
+        android:pathData="M34,60 L35,62.5 L37.5,63.5 L35,64.5 L34,67 L33,64.5 L30.5,63.5 L33,62.5 Z" />
+</vector>
+

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Kaamelott Nuit</string>
+    <string name="smart_play">Lancer l\'écoute intelligente</string>
+    <string name="smart_play_subtitle">Choix optimal de l\'épisode &amp; du passage</string>
+    <string name="select_folder">Sélectionner le dossier audio</string>
+    <string name="change_folder">Changer de dossier</string>
+    <string name="no_folder_selected">Aucun dossier sélectionné</string>
+    <string name="scanning_files">Analyse des fichiers audio…</string>
+    <string name="episodes_count">%1$d épisodes trouvés</string>
+    <string name="night_mode_hint">Tap : +5 min • Double tap : Quitter</string>
+    <string name="zone_avoided">Zone marquée à éviter</string>
+    <string name="zone_unavoided">Zone réactivée</string>
+</resources>

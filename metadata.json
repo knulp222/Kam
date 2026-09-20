@@ -1,0 +1,6 @@
+{
+  "name": "Kaamelott Nuit",
+  "description": "Application d'écoute nocturne d'épisodes audio de Kaamelott avec sélection intelligente et minuterie.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
