@@ -3,24 +3,50 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#101722">
-  <meta name="description" content="Kaamelott Nuit pour Android : vos fichiers audio, un passage différent chaque soir et un minuteur.">
-  <title>Kaamelott Nuit — Télécharger pour Android</title>
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23101722'/%3E%3Cpath d='M41 12a22 22 0 1 0 11 37A23 23 0 0 1 41 12Z' fill='%23e9bf70'/%3E%3C/svg%3E">
+  <meta name="theme-color" content="#111214">
+  <meta name="description" content="Kaamelott Nuit : écoutez vos fichiers audio au coucher avec sélection variée, minuteur et mode Nuit. Application Android gratuite.">
+  <title>Kaamelott Nuit — Télécharger l’application Android</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23111214'/%3E%3Cpath d='M41 12a22 22 0 1 0 11 37A23 23 0 0 1 41 12Z' fill='%23e8c28b'/%3E%3C/svg%3E">
   <style>
-    :root{color-scheme:dark;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#101722;color:#f5f0e8}*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 75% 5%,#293445 0,transparent 46%),#101722;min-height:100vh}a{color:inherit}header,main,footer{width:min(1100px,calc(100% - 40px));margin:auto}header{display:flex;align-items:center;justify-content:space-between;padding:28px 0}.brand{font-weight:800;letter-spacing:.03em;text-decoration:none}.brand span{color:#e9bf70}.repo{font-size:.9rem;color:#c4cad4;text-underline-offset:4px}.hero{display:grid;grid-template-columns:1.12fr .88fr;gap:7vw;align-items:center;padding:8vh 0 10vh}.eyebrow{color:#e9bf70;letter-spacing:.18em;text-transform:uppercase;font-size:.8rem;font-weight:700}h1{font-family:Georgia,serif;font-size:clamp(3.4rem,8vw,7.4rem);line-height:.95;letter-spacing:-.05em;margin:24px 0 28px;font-weight:400}h1 em{color:#e9bf70;font-weight:400}.intro{font-size:clamp(1.1rem,2vw,1.35rem);line-height:1.6;color:#d3d6da;max-width:34rem}.cta{display:inline-flex;padding:17px 23px;background:#e9bf70;color:#17202b;border-radius:9px;text-decoration:none;font-weight:750;margin-top:25px}.cta:hover,.cta:focus-visible{background:#f8d69a}.availability{color:#bfc6ce;font-size:.9rem;line-height:1.5;max-width:32rem}.art{min-height:470px;border:1px solid #67718155;border-radius:240px 240px 22px 22px;background:radial-gradient(circle at 48% 31%,#d6ae6e44 0 10%,transparent 36%),linear-gradient(#263446,#121c2b);position:relative;overflow:hidden;box-shadow:inset 0 0 90px #070d17,0 40px 100px #050a1355}.moon{position:absolute;left:50%;top:16%;width:156px;height:156px;border-radius:50%;background:#efd09a;box-shadow:0 0 65px #e9bf7060;transform:translateX(-50%)}.moon:after{content:"";position:absolute;background:#273447;border-radius:50%;width:150px;height:150px;left:42px;top:-28px}.wave{position:absolute;bottom:14%;left:10%;width:80%;height:110px;display:flex;align-items:center;justify-content:center;gap:7px}.wave i{width:4px;height:var(--h);background:#e9bf70;border-radius:4px;opacity:.8}.art-caption{position:absolute;bottom:7%;width:100%;text-align:center;letter-spacing:.18em;text-transform:uppercase;font-size:.75rem;color:#c4cad4}.section{border-top:1px solid #425063;padding:60px 0}.section h2{font-family:Georgia,serif;font-size:clamp(2rem,4vw,3.3rem);font-weight:400;margin:0 0 30px}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.step{border:1px solid #425063;background:#1a2532;border-radius:14px;padding:26px}.step b{color:#e9bf70;font-size:.85rem}.step h3{font-size:1.15rem;margin:18px 0 10px}.step p,.note{line-height:1.6;color:#c4cad4;margin:0}.note{max-width:780px}.note a{text-underline-offset:3px}footer{border-top:1px solid #425063;padding:28px 0 45px;color:#9fa9b7;font-size:.85rem;line-height:1.5}code{overflow-wrap:anywhere;color:#e9bf70}@media(max-width:760px){header{padding:22px 0}.hero{grid-template-columns:1fr;padding:45px 0 55px;gap:35px}.art{min-height:300px;border-radius:170px 170px 18px 18px}.moon{width:115px;height:115px}.moon:after{width:112px;height:112px;left:32px;top:-20px}.steps{grid-template-columns:1fr}.section{padding:45px 0}}
+    :root{color-scheme:dark;--bg:#111214;--surface:#1d1e21;--line:#39393a;--text:#f5f2ee;--muted:#b6b7bc;--gold:#e8c28b;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-size:16px;line-height:1.55}a{color:inherit}img{display:block;max-width:100%}.wrap{width:min(1120px,calc(100% - 40px));margin:auto}
+    header{display:flex;justify-content:space-between;align-items:center;padding:22px 0;border-bottom:1px solid var(--line)}.brand{text-decoration:none;font-weight:800;letter-spacing:.02em}.brand span{color:var(--gold)}.header-link{font-size:.9rem;color:var(--muted);text-underline-offset:4px}
+    .hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:clamp(30px,6vw,80px);align-items:center;padding:70px 0 80px}.eyebrow{color:var(--gold);font-size:.8rem;font-weight:750;letter-spacing:.14em;text-transform:uppercase}h1{font-size:clamp(3rem,6.6vw,6rem);letter-spacing:-.065em;line-height:1.02;margin:20px 0 25px}h1 span{color:var(--gold)}.intro{font-size:clamp(1.1rem,1.7vw,1.3rem);color:#d3d1d0;max-width:34rem;margin:0 0 26px}.download{display:inline-flex;align-items:center;justify-content:center;background:var(--gold);color:#151515;text-decoration:none;font-weight:800;border-radius:10px;padding:16px 22px;min-height:54px}.download:hover,.download:focus-visible{background:#f3d4a7}.meta{color:var(--muted);font-size:.9rem;margin:12px 0 0}
+    .shots{display:flex;align-items:center;justify-content:center;gap:16px;min-width:0}.shot{width:48%;margin:0}.shot img{width:100%;height:auto;border:1px solid #454342;border-radius:24px;box-shadow:0 18px 45px #0007}.shot figcaption{text-align:center;color:var(--muted);font-size:.86rem;margin-top:12px}
+    section.features{border-top:1px solid var(--line);padding:50px 0 60px}h2{font-size:clamp(1.65rem,3vw,2.5rem);letter-spacing:-.035em;margin:0 0 25px}.feature-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.feature{background:var(--surface);border:1px solid var(--line);border-radius:15px;padding:23px}.feature h3{font-size:1.1rem;margin:0 0 10px}.feature p{margin:0;color:var(--muted)}.feature b{color:var(--gold)}
+    .fineprint{border-top:1px solid var(--line);padding:30px 0 45px;color:var(--muted);font-size:.92rem}.fineprint p{max-width:850px;margin:0 0 12px}.fineprint code{overflow-wrap:anywhere;color:var(--gold)}details summary{cursor:pointer;text-decoration:underline;text-underline-offset:3px}footer{border-top:1px solid var(--line);padding:22px 0 35px;color:#96989e;font-size:.85rem}
+    @media(max-width:760px){header{padding:18px 0}.hero{grid-template-columns:1fr;padding:42px 0 55px;gap:36px}.shots{gap:10px}.shot img{border-radius:16px}.feature-grid{grid-template-columns:1fr}section.features{padding:38px 0 45px}.feature{padding:20px}}
   </style>
 </head>
 <body>
-  <header><a class="brand" href="#">KAAMELOTT <span>NUIT</span></a><a class="repo" href="https://github.com/knulp222/Kam">Code source sur GitHub ↗</a></header>
-  <main>
+  <header class="wrap"><a class="brand" href="#">KAAMELOTT <span>NUIT</span></a><a class="header-link" href="https://github.com/knulp222/Kam">Code source ↗</a></header>
+  <main class="wrap">
     <section class="hero">
-      <div><div class="eyebrow">Application Android · Version 1.3</div><h1>Un passage.<br><em>Et bonne nuit.</em></h1><p class="intro">Vos épisodes audio. Un passage différent chaque soir. Un minuteur pour s’endormir.</p><a class="cta" href="downloads/Kaamelott-Nuit-1.3.apk" download>Télécharger pour Android ↓</a><p class="availability">APK · 22 Mo · Android 7.0 minimum</p></div>
-      <div class="art" aria-hidden="true"><div class="moon"></div><div class="wave"><i style="--h:20%"></i><i style="--h:43%"></i><i style="--h:70%"></i><i style="--h:32%"></i><i style="--h:88%"></i><i style="--h:53%"></i><i style="--h:25%"></i><i style="--h:72%"></i><i style="--h:41%"></i><i style="--h:84%"></i><i style="--h:35%"></i><i style="--h:59%"></i><i style="--h:19%"></i></div><div class="art-caption">Votre soirée, à votre rythme</div></div>
+      <div>
+        <div class="eyebrow">Pour Android · Version 1.3</div>
+        <h1>Kaamelott <span>Nuit</span></h1>
+        <p class="intro">Une appli pour écouter vos épisodes de Kaamelott au coucher. Vous choisissez le dossier audio, elle choisit un passage et s’arrête après le temps que vous avez réglé.</p>
+        <a class="download" href="downloads/Kaamelott-Nuit-1.3.apk" download>Télécharger l’APK Android ↓</a>
+        <p class="meta">22 Mo · Android 7.0 minimum · Aucun épisode fourni</p>
+      </div>
+      <div class="shots" aria-label="Captures d’écran de l’application">
+        <figure class="shot"><img src="assets/accueil.png" alt="Écran d’accueil : minuteur et sélection intelligente" width="1080" height="2410"><figcaption>Sélection intelligente</figcaption></figure>
+        <figure class="shot"><img src="assets/aleatoire.png" alt="Mode purement aléatoire avec minuteur de sommeil" width="1080" height="2410"><figcaption>Mode aléatoire</figcaption></figure>
+      </div>
     </section>
-    <section class="section"><h2>En trois gestes</h2><div class="steps"><div class="step"><b>01</b><h3>Choisissez un dossier</h3><p>Ajoutez vos propres fichiers audio.</p></div><div class="step"><b>02</b><h3>Lancez l’écoute</h3><p>Un passage choisi pour vous, ou totalement au hasard.</p></div><div class="step"><b>03</b><h3>Réglez le minuteur</h3><p>La lecture s’arrête à l’heure voulue.</p></div></div></section>
-    <section class="section"><p class="note">Aucun épisode n’est fourni : utilisez uniquement des fichiers dont vous avez les droits. Projet non officiel, sans affiliation avec les ayants droit de Kaamelott.</p><details class="note" style="margin-top:22px"><summary>Vérifier le fichier téléchargé</summary><p style="margin-top:12px">SHA-256 : <code>f89517aa06dd4e6ec70f88cb5829dbc6690ac5a62eb7dfd978262db0f3c534bc</code></p></details></section>
+    <section class="features">
+      <h2>Ce que fait l’app</h2>
+      <div class="feature-grid">
+        <div class="feature"><h3>Ça varie les plaisirs</h3><p>La sélection intelligente favorise les épisodes et passages moins écoutés. Histoire de ne pas entendre la même réplique tous les soirs. Un mode <b>purement aléatoire</b> est aussi disponible.</p></div>
+        <div class="feature"><h3>Ça sait s’arrêter</h3><p>Réglez le <b>minuteur</b> à votre convenance : la lecture s’arrête automatiquement, avec un fondu sonore en fin de séance.</p></div>
+        <div class="feature"><h3>Ça calme les trompettes</h3><p>Le <b>mode Nuit</b> atténue les aigus et adoucit le début des pistes. Les fanfares restent dans l’histoire, mais essaient de moins entrer dans votre chambre.</p></div>
+      </div>
+    </section>
+    <div class="fineprint">
+      <p>L’application ne contient aucun épisode. Utilisez vos propres fichiers audio, dans un dossier du téléphone, avec les droits nécessaires. Projet non officiel, sans affiliation avec les créateurs ou ayants droit de Kaamelott.</p>
+      <details><summary>Vérifier l’APK</summary><p>SHA-256 : <code>f89517aa06dd4e6ec70f88cb5829dbc6690ac5a62eb7dfd978262db0f3c534bc</code></p></details>
+    </div>
   </main>
-  <footer>Kaamelott Nuit · Application indépendante, conçue pour l’écoute de fichiers personnels.</footer>
+  <footer class="wrap">Kaamelott Nuit · Application Android indépendante</footer>
 </body>
 </html>
